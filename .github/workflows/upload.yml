@@ -22,5 +22,3 @@ jobs:
           S3_BUCKET: ${{ secrets.S3_BUCKET }}
         run: |
           aws s3 cp ./index.html s3://nextwork-nasol/index.html
-          aws s3 cp ./script.js s3://nextwork-nasol/script.js
-          aws s3 cp ./style.css s3://nextwork-nasol/style.css
